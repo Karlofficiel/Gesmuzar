@@ -1,0 +1,67 @@
+body{
+  scrollbar-width:none;
+}
+  .business-card {
+    position:relative;
+    right:2%;
+    border: 4px solid transparent;
+    border-radius: 20px;
+   
+    background-clip: padding-box;
+    z-index: 1;
+    animation: floating 3s ease-in-out infinite;
+  }
+ 
+  .card-content {
+    background: linear-gradient(315deg, #9FA5D5, #E8F5C8);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transform: rotateY(0deg);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;  
+    position:absolute;
+    left:-1260px;
+    bottom:240px;
+  }
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.5s ease;
+  }
+  h1 {
+    font-size: 25px;
+    margin-bottom: 7px;
+    color:black !important;
+  }
+  
+  p {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: black !important;
+  }
+.user{
+  font-family: gabriola;
+  font-size:36px;
+}
+form {
+  width: 600px;
+}
+form input{
+  height: 40px;
+}
+form nav{
+  display: flex;
+}
+form nav input{
+  margin-right: 5px;
+}
+form nav .input{
+  background-color: red;
+  border: none;
+  color: beige;
+  font-weight: bold;
+}

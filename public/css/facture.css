@@ -1,0 +1,100 @@
+.gauche{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    top: 120px;
+    left: 260px;
+    height: 550px;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+  
+  }
+  body {
+    font-family: Arial, sans-serif;
+    overflow: scroll;
+    scrollbar-width:none;
+
+}
+html{
+  overflow: scroll;
+}
+input{
+    background-color: rgb(39, 148, 244);
+    height: 40px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+input:hover{
+    background-color: rgb(55, 55, 214);
+    transition: .5s;
+}
+h1{
+    background-color: rgb(39, 148, 244);
+    display: inline-block;
+    margin-top: 0;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 19, 36) !important;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.p1{
+    margin-left: 60px;
+}
+.p2{
+    margin-right: 40px;
+}
+.div1{
+    position: absolute;
+    top: 200px;
+    display: flex;
+}
+.div1 nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.div1 nav h4{
+    font-weight: bold;
+    font-size: 15px;
+}
+#tablefacture{
+    position: absolute;
+    top: 280px;
+    width: 80%;
+    margin-left: 55px;
+    /* height: 60px; */
+    
+}
+#tablefacture td,th
+{
+    padding: 10px;
+}
+.div2{
+    position: absolute;
+    top: 400px;
+    display: flex;
+}
+.div2 nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.div2 nav h4{
+    font-weight: bold;
+    font-size: 15px;
+}
+.bouton{
+    position: absolute;
+    bottom: -50px;
+    left:-1px;
+    border-radius:5px;
+    border:none;
+}

@@ -1,0 +1,92 @@
+
+.form-container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 90px;
+}
+
+#id01{
+    position: fixed ;
+}
+h1 {
+    font-size: 1.8rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.remplir{
+    background: #00e100;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin-right: 10px;
+    
+}
+.but{
+    display: flex;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #000000;
+    font-size: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.envoyer {
+    background: #007bff;
+    color: #ffffff !important;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+a{
+text-decoration: none;
+color: #ffffff !important;
+}
+.form-container{
+    width: 600px;
+}
+.submit-button{
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    
+}
+
